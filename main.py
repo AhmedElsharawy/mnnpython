@@ -20,7 +20,7 @@ if x >= 1090 and y >=1100:
     elif x <= 1090 and y <=1100:
         e = x / 1600 * 60 + y / 1600 * 0 + z
         g = x / 1600 * 60 + y / 1600 * 0 + z
-    print (e)
-    print (g)
+    print ('The score for public universities:', e)
+    print ('The score for private universities:', g)
 else: 
     print("Invalid entry")
